@@ -1,4 +1,4 @@
-use candid::(CandidType, Deserialize); 
+use candid::{CandidType, Deserialize};
 
 #[derive(Clone, CandidType, Deserialize)]
 pub struct Config {
